@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Notícias</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="JQuery/jquery-3.3.1.min.js"></script>    
+</head>
+<body>
+    <div class="container">
+        <!-- CABECARIO -->
+        <header>
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1>Treinamento OSF</h1>
+                    <blockquote class="blockquote text-right">
+                        <p class="mb-0">"O entusiasmo é a maior força da alma. Conserva-o e nunca te faltará poder para conseguires o que desejas."</p>
+                        <footer class="blockquote-footer"><cite title="Source Title">Napoleão Bonaparte</cite></footer>
+                    </blockquote>
+                </div>
+            </div>
+        </header>
+        <!-- Menuzinho -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark meu-nav">
+            <a class="navbar-brand" href="index.html">Home |</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="form.html">Formulário</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="noticia.html">Noticias</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- CARDS -->
+        <section id="noticias">
+            <div class="row col-sm-12">
+                <div class="card col-sm-4" style="width: 18rem;">
+                    <img class="card-img-top" src="img/furacao-michael.jpg" alt="Foto Furacão">
+                    <div class="card-body">
+                        <a href="https://goo.gl/kfv3wv"><h5 class="card-title">Furacão Michael atinge a Flórida com ventos de até 250 km/h</h5></a>
+                        <p class="card-text">Potencial é 'catastrófico', segundo NHC. Cerca de 500 mil pessoas receberam ordem ou alerta para deixar suas casas.</p>
+                    </div>
+                </div>
+                
+                <div class="card col-sm-4" style="width: 18rem;">
+                    <img class="card-img-top" src="img/indigena_deputada.jpg" alt="foto deputada indigina">
+                    <div class="card-body">
+                        <a href="https://goo.gl/1kYVYU"><h5 class="card-title">Primeira mulher indígena da história é eleita deputada federal</h5></a>
+                        <p class="card-text">Joênia Wapichana é a primeira mulher indígena da história do Brasil a se tornar Deputada Federal.</p>
+                    </div>
+                </div>                    
+                <div class="card col-sm-4" style="width: 18rem;">
+                    <img class="card-img-top" src="img/20181009-142414.jpg" alt="foto dispositivo google">
+                    <div class="card-body">
+                        <a href="https://goo.gl/RHf6i3"><h5 class="card-title">Google Home Hub: saiba tudo sobre o novo smart display da fabricante
+                        </h5></a>
+                        <p class="card-text">Dispositivo tem tela com Google Assistente e YouTube para todos os membros da família</p>
+                    </div>
+                </div>
+            </div>
+            <!-- DIV LER MAIS -->
+            <div id="lerMais">
+                <div id="div-LerMais" class="row col-sm-12">
+                    <div class="card col-sm-4" style="width: 18rem;">
+                        <img class="card-img-top" src="img/20181009-142414.jpg" alt="foto dispositivo google">
+                        <div class="card-body">
+                            <a href="https://goo.gl/RHf6i3"><h5 class="card-title">Google Home Hub: saiba tudo sobre o novo smart display da fabricante
+                            </h5></a>
+                            <p class="card-text">Dispositivo tem tela com Google Assistente e YouTube para todos os membros da família</p>
+                        </div>
+                    </div>  
+                    <div class="card col-sm-4" style="width: 18rem;">
+                        <img class="card-img-top" src="img/20181009-142414.jpg" alt="foto dispositivo google">
+                        <div class="card-body">
+                            <a href="https://goo.gl/RHf6i3"><h5 class="card-title">Google Home Hub: saiba tudo sobre o novo smart display da fabricante
+                            </h5></a>
+                            <p class="card-text">Dispositivo tem tela com Google Assistente e YouTube para todos os membros da família</p>
+                        </div>
+                    </div> 
+                    <div class="card col-sm-4" style="width: 18rem;">
+                        <img class="card-img-top" src="img/20181009-142414.jpg" alt="foto dispositivo google">
+                        <div class="card-body">
+                            <a href="https://goo.gl/RHf6i3"><h5 class="card-title">Google Home Hub: saiba tudo sobre o novo smart display da fabricante
+                            </h5></a>
+                            <p class="card-text">Dispositivo tem tela com Google Assistente e YouTube para todos os membros da família</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- BOTÃO -->
+            <p><button class="btn btn-primary col-sm-12" type="button" onclick="mostrarMais()" id="btnMostrar">Mostrar Mais</button></p>
+        </section>
+    </div>
+    <footer>
+        <small>All rights reserved &copy; - Isaac James 2018</small>
+    </footer>
+    <!-- SCRIPT NA MÃO -->
+    <script src="JQuery/my-jquery.js"></script>
+</body>
+</html>

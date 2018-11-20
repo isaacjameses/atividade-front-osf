@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">            
+        <header>
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1>Treinamento OSF</h1>
+                    <blockquote class="blockquote text-right">
+                        <p class="mb-0">"O entusiasmo é a maior força da alma. Conserva-o e nunca te faltará poder para conseguires o que desejas."</p>
+                        <footer class="blockquote-footer"><cite title="Source Title">Napoleão Bonaparte</cite></footer>
+                    </blockquote>
+                </div>
+            </div>
+        </header>
+        <!-- Menuzinho -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark meu-nav">
+            <a class="navbar-brand" href="index.html">Home |</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="form.html">Formulário</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="noticia.html">Noticias</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Formulario -->
+        <form class="container" id="custom-form">
+            <h2>Formulário</h2>
+            <div class="form-group">
+                <label for="name">Nome</label>
+                <input class="form-control" type="text" name="nome" id="nome" placeholder="Nome">
+            </div>
+            <div class="form-group">
+                <label for="name">Sobrenome</label>
+                <input class="form-control" type="text" name="sobrenome" id="sobrenome" placeholder="sobrenome">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input class="form-control" type="email" name="email" id="email" placeholder="Email" required>
+                <div class="invalid-feedback">
+                    Please provide a valid city.
+                </div>
+                <small class="form-text">examplo@examplo.com</small>
+            </div>
+            <!-- Button -->
+            <button class="btn btn-primary" type="submit" id="btn-adicionar">Adicionar</button>
+        </form>
+        <!-- Tabela -->
+        <table  class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Sobrenome</th>
+                    <th>email</th>
+                </tr>
+            </thead>
+            <tbody id="tabela-pessoa">
+                
+            </tbody>
+        </table>
+        
+        <div id="mensagens-erro">
+            
+        </div>
+        
+        <!-- RODAPE -->
+        <footer>
+            All rights reserved &copy; - Isaac James 2018
+        </footer>
+    </div>
+    <!-- Scripts -->
+    <script src="js/form.js"></script>
+</body>
+</html>
